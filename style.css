@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat',  sans-serif;
+}
+.top{
+    width: 1440px;
+    height: 1024px;
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.header {
+width:788.78px; 
+height:125.01px;   
+padding-top:217.1px;
+padding-left:120.22px;    
+color: white;
+font-size: 61px;
+}
+.paragraph{
+    width:481px;
+    height:64px;
+    padding-top:32px;
+    padding-left:120.22px ;
+    color: white;
+    font-size: 18px;
+}
+.knopka{
+    width:234.06px;
+    height: 48.6px;
+    margin-top: 32px;
+    margin-left:120px; 
+    display: flex;
+       align-items: center;
+       justify-content: center;
+       border: 1px solid #000000;
+       border-radius: 30px; 
+       color: white; 
+       background:darkred; 
+}
+.img{
+width:1440px ;
+height: 556px;
+padding-top: 0;
+background-color:#000915;
+}
+.game1{
+    width:379px;
+    height: 300px;
+    padding-top: 128px;
+    padding-left:120px ;
+}
+.game2{
+    width:379px;
+    height: 300px;
+    padding-top: 128px;
+    padding-left:32px ;
+}
+.game3{
+    width:379px;
+    height: 300px;
+    padding-top: 128px;
+    padding-left:32px ;
