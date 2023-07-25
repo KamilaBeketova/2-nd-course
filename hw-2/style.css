@@ -124,11 +124,12 @@ body {
     text-align: center;
 }   
 .knopka {
-  width: 234.06px;
+  width: 234px;
   height: 48px;
-  padding-left: 0;
+  font-size: 18px;
+
   margin-left: 16px;
-  margin-bottom: 32px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +150,6 @@ body {
   .game1 {
     width: 343px;
     height: 300px;
-    padding-top: 0px;
     padding-left: 16px;
   }
   .game2 {
