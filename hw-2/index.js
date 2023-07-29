@@ -41,8 +41,8 @@ alert(age1);
 // Задание 9.0
 const user = {
     name: "Григорий",
-    age: Number (28),
-    isAdmin: Boolean("false")
+    age: 28,
+    isAdmin: false
 }
 // Задание 9.1
 console.log(user);
