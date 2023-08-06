@@ -52,9 +52,9 @@ user.age = 30;
 // Задание 9.3
 delete user['city of residence']
 // Задание 9.4
-let user = 'name';
+let user1 = 'name';
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 alert(user[info]);
 // Задание 10
-let name = prompt('Введите ваше имя');
-alert('Привет, ${name}!');
+let name1 = prompt('Введите ваше имя');
+alert(`Привет, ${name1}!`);
