@@ -12,7 +12,7 @@
         background-size: cover;
     }
     .h_header{
-        width: 343px; ;
+        width: 343px; 
         height: 257.61px;
         margin-left: 16px;
         display: flex;
@@ -36,11 +36,13 @@
         text-align: center;
     }    
     .knopka {
-        width: 234.06px;
+        width: 234px;
         height: 48px;
-        padding-left: 0;
+        font-size: 18px;
+     
         margin-left: 16px;
-        margin-bottom: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;      
         display: flex;
         align-items: center;
         justify-content: center;
@@ -50,7 +52,7 @@
         background: darkred;
       }
     .img{
-        width: 375px ;
+        width: 375px;
         height: 1221px;
         padding-top: 128px;
         padding-bottom: 128px;
@@ -59,22 +61,74 @@
         row-gap: 16px;
         }
     .game1{
-        width:343px;
+        width: 343px;
         height: 300px;
-        padding-top: 0px;
         padding-left: 16px;
     }
     .game2{
-        width:343px;
+        width: 343px;
         height: 300px;
         padding-top: 0px;
         padding-left: 16px;
     }
     .game3{
-        width:343px;
+        width: 343px;
         height: 300px;
         padding-top: 0px;
         padding-left: 16px;
+    }  .vremena_goda{
+        width: 375px;
+        height: 654px;
+        background-color: #000915;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        column-gap: 16px;
+        
+    }
+    .block_1{
+      width: 343px;
+      height: 217px;
+      margin-left: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .header_vg {
+      width: 320px;
+      padding-left: 0;
+      padding-top: 32px;
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 39px;
+      text-align: center;
+    }
+    .paragraph_vg {
+      width: 320px;
+      padding-left: 0;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+    }
+    .knopka_vg {
+      width: 234px;
+      height: 48px;
+      font-size: 18px;
+      margin-left: 16px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      color: white;
+      background: darkred;
+    }
+    .png{
+      width: 344px;
+      height: 236px;
+      padding-left: 16px; 
     }
 }
 

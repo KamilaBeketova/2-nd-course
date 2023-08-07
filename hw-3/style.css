@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top {
+  width: 1440px;
+  height: 1024px;
+  background: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  width: 788.78px;
+  height: 125.01px;
+  padding-top: 217.1px;
+  padding-left: 120.22px;
+  color: white;
+  font-size:64px ;
+  font-weight: 700;
+}
+
+.h_header {
+  color: #FFFFFF;
+  font-size: 64px;
+  max-width: 788px;
+}
+
+.paragraph {
+  width: 481px;
+  height: 64px;
+  padding-top: 64px;
+  padding-left: 120.22px;
+  color: white;
+  font-size: 18px;
+} 
+  
+
+.paragraph_n {
+  font-weight: 700;
+}
+
+.knopka {
+  font-size: 18px;
+  width: 234.06px;
+  height: 48.6px;
+  margin-top: 32px;
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  color: white;
+  background: darkred;
+}
+
+.img {
+  width: 1440px;
+  height: 556px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: #000915;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.game1 {
+  width: 379px;
+  height: 300px;
+  padding-top: 128px;
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game2 {
+  width: 379px;
+  height: 300px;
+  padding-top: 128px;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game3 {
+  width: 379px;
+  height: 300px;
+  padding-top: 128px;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.vremena_goda{
+  width: 1440px;
+  height: 800px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: #000915;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.header_vg{
+  width: 377px;
+  height: 59px;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 217.1px;
+  padding-left: 120px;
+  color: white;
+}
+.paragraph_vg {
+  width: 584px;
+  height: 64px;
+  padding-top: 32px;
+  padding-left: 120px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+} 
+.knopka_vg {
+  font-size: 18px;
+  width: 234.06px;
+  height: 48.6px;
+  margin-top: 32px;
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  color: white;
+  background: darkred;
+}
+.png{
+  width: 485px;
+  height: 333px;
+  padding-left: 128px;
+  padding-top: 128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    width: 375px;
+    height: 735px;
+    background: url(img/mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .h_header {
+    width: 343px;
+    height: 257px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    width: 320px;
+    padding-left: 0;
+    padding-top: 238px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 39px;
+    text-align: center;
+  }
+  .paragraph {
+    width: 343px;
+    height: 66px;
+    padding-top: 32px;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .knopka {
+    width: 234px;
+    height: 48px;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+    display: flex;
+   text-align: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    color: white;
+    background: darkred;
+  }
+  .img {
+    width: 375px;
+    height: 1221px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #000915;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    row-gap: 16px;
+  }
+  .game1 {
+    width: 343px;
+    height: 300px;
+    padding-left: 16px;
+  }
+  .game2 {
+    width: 343px;
+    height: 300px;
+    padding-top: 0px;
+    padding-left: 16px;
+  }
+  .game3 {
+    width: 343px;
+    height: 300px;
+    padding-top: 0px;
+    padding-left: 16px;
+  }
+  .vremena_goda{
+    width: 375px;
+    height: 654px;
+    background-color: #000915;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 16px;
+    
+}
+.block_1{
+  width: 343px;
+  height: 217px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_vg {
+  width: 320px;
+  padding-left: 0;
+  padding-top: 32px;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 39px;
+  text-align: center;
+}
+.paragraph_vg {
+  width: 320px;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+.knopka_vg {
+  width: 234px;
+  height: 48px;
+  font-size: 18px;
+  margin-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  color: white;
+  background: darkred;
+}
+.png{
+  width: 344px;
+  height: 236px;
+  padding-left: 16px; 
+}
+}
+/*# sourceMappingURL=style.css.map */
