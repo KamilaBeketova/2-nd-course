@@ -1,7 +1,7 @@
 function fruties() {
     const fruties= ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-    let list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    list = list.sort(() => Math.random() - 0.5);
+    let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+   // list = list.sort(() => Math.random() - 0.5);
      alert(`Запомни слова: ${fruties}`);
      const fruties1 = prompt("Какое было 1е слово?");
      const fruties2 = prompt("Какое было последнее слово?");
