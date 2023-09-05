@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top center">
+        <section class="h_header">
+            <h1 class="header">Добро пожаловать <br> на мой сайт !</h1>
+            <p class="paragraph">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="paragraph_n">поехали</span> и <span class="paragraph_n">приступай</span></p>
+            <button class="knopka">Поехали!</button>
+        </section>
+    </div>
+    <div class="img center">
+        <img class="game1" src="img/Group 1.svg" alt="game1">
+        <img class="game2" src="img/Group 2.svg" alt="game2">
+        <img class="game3" src="img/Group 3.svg" alt="game3">
+        </div>
+        <div class="vremena_goda center">
+            <div class="block_1">
+        <h2 class="header_vg">Времена года!</h2>
+        <p class="paragraph_vg">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="season()" class="knopka_vg">Играть!</button>
+        </div>
+            <img class="png" src="img/vremena.png" alt="kartinka">
+
+            </div>
+            <div class="zapomni_slova center">
+            <img class="png_2" src="img/zapomni.png" alt="kartinka">
+                <div class="block_2">
+            <h2 class="header_zs">Запомни слова </h2>
+            <p class="paragraph_zs">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                <button onclick="fruties()" class="knopka_zs">Играть!</button>
+            </div>
+               
+    
+        </div>
+                <div class="zagadki center">
+                    <section>
+                        <h2 class="header_zagadki">Игра в загадки</h2>
+                        <p class="paragraph_zagadki">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+                        <button  class="knopka_zagadki">Играть!</button>
+                    </section>
+                </div>
+                <div class="prava center">
+                        <p class="paragraph_prava">Все права защищены</p> 
+                </div>
+        <script src="index.js"></script>
+        <script src="game_season.js"></script>
+</body>
+</html>
